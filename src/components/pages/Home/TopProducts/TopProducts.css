@@ -1,0 +1,62 @@
+ .topSellingBox h3 {
+     font-size: 22px;
+     font-weight: 400;
+     position: relative;
+     padding-bottom: 20px;
+     margin-bottom: 30px;
+ }
+
+ .topSellingBox h3::after {
+     content: '';
+     height: 3px;
+     width: 100%;
+     background: #bdbcbc;
+     position: absolute;
+     left: 0;
+     bottom: 0;
+ }
+
+ .topSellingBox h3::before {
+     content: '';
+     height: 3px;
+     width: 30%;
+     background: #bce3c9;
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     z-index: 10;
+ }
+
+
+ .topSellingBox .items {
+     padding: 10px 0;
+     position: relative;
+ }
+ .topSellingBox .items:hover {
+     transform: translateY(-10px);
+ }
+
+ .topSellingBox .items .img {
+     width: 30%;
+     background: #fafafa;
+ }
+
+ .topSellingBox .items .info {
+     width: 70%;
+ }
+
+ .topSellingBox .items .info a {
+     text-decoration: none;
+     color: #000;
+ }
+
+ .topSellingBox .items .info h4 {
+     font-weight: 600;
+     opacity: .8;
+     font-size: 14px !important;
+     margin-bottom: 0;
+ }
+
+  .topSellingBox .items .info .pp{
+    margin-top: -7px;
+  }

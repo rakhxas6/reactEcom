@@ -1,0 +1,93 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css");
+
+
+.homeSlider {
+    padding: 30px 0;
+}
+
+.homeSliderMain {
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 47%;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    background: #f2f3f4 !important;
+    z-index: 1000;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.slick-arrow.slick-next {
+    right: 2% !important;
+}
+
+.slick-arrow.slick-prev {
+    left: 2% !important;
+}
+
+.slick-prev::before {
+    content: "\2039" !important;
+    font-family: FontAwesome !important;
+    color: #000 !important;
+}
+
+.slick-next::before {
+    content: "\203A" !important;
+    font-family: FontAwesome !important;
+    color: #000 !important;
+}
+
+.slick-arrow:hover {
+    background: #3bb77e !important;
+}
+
+.slick-arrow:hover::before {
+    color: #fff !important;
+}
+
+.homeSliderMain .slick-dots {
+    position: absolute;
+    bottom: 30px !important;
+}
+
+.homeSliderMain .slick-dots button::before {
+    width: 10px !important;
+    height: 10px !important;
+    font-size: 16px;
+}
+
+.slick-active button::before {
+    color: #3bb77e !important;
+}
+
+.homeSliderMain .item {
+    position: relative;
+}
+
+.homeSliderMain .item .info {
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    z-index: 100;
+}
+
+.homeSliderMain .item .info h2 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.homeSliderMain .item .info p {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+
+}

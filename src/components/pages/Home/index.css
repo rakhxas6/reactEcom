@@ -1,0 +1,115 @@
+.homeProducts {
+    padding: 25px 0;
+}
+
+.homeProducts .slick-arrow {
+    zoom: 65%;
+    top: 240px;
+}
+
+.homeProducts .slick-arrow.slick-next {
+    margin-right: 45px;
+}
+
+.homeProductsRow2 .prodSlider .slick-slide {
+    padding-right: 25px !important;
+}
+
+.filterTab li {
+    margin-left: 20px;
+    position: relative;
+}
+
+.filterTab li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+
+.filterTab li:hover a {
+    color: #3bb77e !important;
+    transform: translateY(-10px);
+}
+
+.homeProducts .productRow {
+    display: flex;
+    padding: 30px 0;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.homeProducts .productRow .item {
+    width: 20%;
+    padding: 15px 15px;
+}
+
+.homeProductsRow2 .prodSlider .item {
+    padding: 10px 0px;
+    padding-right: 10px !important;
+}
+
+.homeProductsRow2 .prodSlider .slick-current .productThumb {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* overlay */
+
+.productThumb .imgWrapper .overlay {
+    padding: 0 !important;
+}
+
+
+
+.topProductsSection {
+    padding: 35px 0;
+}
+
+
+.newsLetterSection {
+    width: 100%;
+    height: auto;
+}
+
+.newsLetterSection .box {
+    background: url(../../../assets/images/banner-10.png) no-repeat center;
+    width: 100%;
+    height: auto;
+    padding: 60px 80px;
+    border-radius: 30px;
+}
+
+
+
+.newsLetterSection .box .info h2 {
+    font-size: 45px;
+    font-family: cursive;
+    opacity: .8;
+    font-weight: bolder;
+    /* line-height: 70px; */
+}
+.newsLetterSection .box .info p {
+    font-size: 19px;
+    opacity: .8;
+    /* font-family: cursive; */
+}
+
+.newsLetterSection .box .info {
+    width: 55%;
+}
+
+.newsLetterSection .box .img {
+    width: 45%;
+}
+.newsLetterSection .box .img img {
+    position: relative;
+    top: 60px;
+}
+
+.newsLetterSection .box .newsLetterBanner {
+    position: relative;
+    left: 0 !important;
+    bottom: inherit;
+
+}

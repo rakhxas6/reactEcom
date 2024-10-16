@@ -1,0 +1,140 @@
+.nav {
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    margin: auto;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.nav .part1 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+
+.nav .catTab {
+    font-size: 13px !important;
+    padding: 6px 15px !important;
+    text-transform: capitalize !important;
+    outline: none;
+}
+
+
+.nav .part2 {
+    flex: 0 0 63%;
+    max-width: 63%;
+}
+
+.nav .part3 {
+    flex: 0 0 17%;
+    max-width: 17%;
+}
+
+.nav nav ul {
+    width: max-content;
+}
+
+.nav nav ul li {
+    position: relative;
+}
+
+.nav nav ul li button {
+    text-transform: capitalize !important;
+    padding: 10px 15px;
+}
+
+.nav nav ul li button a {
+    font-size: 17px;
+    color: rgba(0, 0, 0, .7) !important;
+    text-decoration: none !important;
+}
+
+
+
+.nav .part3 .phNo svg {
+    font-size: 40px;
+}
+
+.nav .part3 .phNo h3 {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.nav .part3 .phNo p {
+    font-size: 11px;
+    opacity: .7;
+}
+
+.nav nav .dropdown_menu {
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+    height: auto;
+    left: 0;
+    opacity: 0;
+    padding: 10px 0;
+    position: absolute;
+    top: 170%;
+    transition: all .3s ease-in-out;
+    visibility: hidden;
+    width: max-content;
+    z-index: 100;
+}
+
+.nav nav li:hover .dropdown_menu {
+    opacity: 1;
+    visibility: inherit;
+    top: 100%;
+}
+
+.nav nav .dropdown_menu li {
+    width: 100% !important;
+    list-style: none;
+    margin: 0 !important;
+}
+
+
+.nav nav .dropdown_menu li button {
+    width: 100% !important;
+    /* display: block; */
+    text-align: left !important;
+    justify-content: flex-start !important;
+    color: #000 !important;
+    text-transform: capitalize !important;
+    font-size: 12px !important;
+    padding: 7px 20px !important;
+    color: #3bb77e !important;
+    outline: none;
+}
+
+.nav nav .dropdown_menu li button a {
+    color: rgba(0, 0, 0, .8) !important;
+    display: block;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    padding: 0 !important;
+    width: 100%;
+    font-weight: 400;
+}
+
+nav .dropdown_menu li button:hover {
+    background: #f1f1f1 !important;
+    /* width: 100% !important; */
+}
+
+.megaMenu {
+    height: auto !important;
+    padding: 40px 45px !important;
+    margin-top: 5px;
+}
+
+.megaMenu .col ul li {
+    margin-bottom: 10px !important;
+    display: block;
+}
+
+.megaMenu .col ul li a {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    text-decoration: none;
+}
