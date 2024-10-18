@@ -1,13 +1,12 @@
-import React, { useState } from "react";
-import "./nav.css";
-import Button from "@mui/material/Button";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import React from "react";
 import { GridView, HeadphonesOutlined } from "@mui/icons-material";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-import { ClickAwayListener } from "@mui/material";
+import "./nav.css";
 
 const Nav = () => {
-  const [isOpenDropDown, setIsOpenDropDown] = useState(false);
+  // const [isOpenDropDown, setIsOpenDropDown] = useState(false);
   return (
     <div className="nav d-flex align-items-center">
       <div className="container-field  ">

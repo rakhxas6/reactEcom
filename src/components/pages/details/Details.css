@@ -1,0 +1,237 @@
+.breadCrumbWrapper {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.breadcrumb2 {
+    background: none !important;
+    padding: 0px !important;
+}
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #3bb77e;
+    text-decoration: none !important;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #3bb77e;
+    text-decoration: underline;
+}
+
+
+.detailsContainer {
+    max-width: 95%;
+    padding: 30px 0px;
+}
+
+.detailsPage .productInfo {
+    padding-left: 50px;
+}
+
+
+.detailsPage .productInfo h1 {
+    font-size: 55px;
+    font-weight: bold;
+    opacity: .8;
+}
+
+.detailsPage .productInfo .priceSec .priceLarge {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.detailsPage .productInfo .priceSec .text-org {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.detailsPage .productInfo .priceSec .text-light.oldPrice {
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+
+.productZoom {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 20px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.zoomSlider {
+    padding-top: 30px;
+}
+
+.zoomSlider * {
+    outline: none !important;
+}
+
+.zoomSlider .slick-slide {
+    padding-right: 8px !important;
+}
+
+.zoomSlider .slick-slide .item {
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid transparent !important;
+    cursor: pointer;
+}
+
+.zoomSlider .slick-current .item {
+    border: 1px solid #3bb77e !important;
+
+}
+
+.detailsPage .zoomSlider .slick-arrow {
+    zoom: 55% !important;
+    top: 60% !important;
+}
+
+.zoomSlider .slick-arrow.slick-prev {
+    left: -5% !important;
+}
+
+.zoomSlider .slick-arrow.slick-next {
+    right: -5% !important;
+}
+
+
+
+
+.productSize {
+    width: 100%;
+    height: auto;
+    padding: 25px 0;
+}
+
+.productSize ul li {
+    margin-right: 15px !important;
+}
+
+.productSize ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px !important;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px !important;
+    transition: all .1s ease-in-out;
+}
+
+.productSize ul li a.active {
+    background: #3bb77e !important;
+    color: #fff !important;
+}
+
+
+
+
+
+.addCartSection {
+    width: 100%;
+    height: auto;
+}
+
+.addCartSection .countSection {
+    width: 100px;
+    height: 60px;
+    border: 1px solid #3bb77e !important;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.addCartSection .countSection input {
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+    outline: none !important;
+    border: 0px;
+    text-align: center;
+}
+
+
+.addCartSection .countSection {
+    position: relative;
+}
+
+.addCartSection .countSection .arrow {
+    position: absolute;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.addCartSection .countSection .arrow.up {
+    top: -2px;
+    right: 10px;
+}
+
+.addCartSection .countSection .arrow.down {
+    bottom: -2px;
+    right: 10px;
+}
+
+.addCartSection .btn-top{
+    margin-top: 0px !important;
+}
+.addToCartIcon svg {
+    font-size: 28px !important;
+}
+
+.addCartSection button {
+    height: 60px;
+    min-width: inherit !important;
+}
+
+.addCartSection button svg {
+    font-size: 30px !important;
+}
+
+.opacity{
+    opacity: 1 !important;
+}
+
+
+
+/* Hide the spin buttons in WebKit browsers */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Hide spin buttons in Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}

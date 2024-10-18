@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -23,6 +26,31 @@ body {
     position: relative !important;
 }
 
+.btn-border {
+    border: 1px solid rgba(0, 0, 0, .1) !important;
+    color: #686767 !important;
+    padding: 10px 20px !important;
+    border-radius: 10px !important;
+}
+
+.btn-border:hover {
+    border: 1px solid #3bb77e !important;
+    background: #3bb77e !important;
+    color: #fff !important;
+}
+
+.btn-border svg {
+    opacity: .5;
+}
+
+.btn-border:hover svg {
+    opacity: 1;
+}
+
+.btn-lg {
+    font-size: 16px !important;
+}
+
 .btn-g {
     background: #3bb77e !important;
     color: #fff !important;
@@ -32,6 +60,7 @@ body {
     margin-top: 5px !important;
     margin-bottom: 0px !important;
     outline: none !important;
+    /* padding-top: 0!important; */
 }
 
 .btn-g:hover {
@@ -45,6 +74,16 @@ body {
 
 .text-g {
     color: #3bb77e !important;
+}
+
+.text-light {
+    opacity: .8;
+    font-size: 14px;
+    color: #000 !important;
+}
+
+.text-org {
+    color: #fdc040 !important;
 }
 
 .hd {
