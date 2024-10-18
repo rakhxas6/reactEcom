@@ -8,10 +8,10 @@ import userIcon from "../../assets/images/icon-user.svg";
 
 import SearchIcon from "@mui/icons-material/Search";
 import SelectDrop from "../selectDrop/selectDrop";
-import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import Button from "@mui/material/Button";
 import { ClickAwayListener } from "@mui/material";
 
+import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import { Person2Outlined } from "@mui/icons-material";
 import { FavoriteBorderOutlined } from "@mui/icons-material";
 import { SettingsOutlined } from "@mui/icons-material";

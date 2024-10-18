@@ -1,18 +1,16 @@
 import React from "react";
-import SliderBanner from "./slider/index";
 import Slider from "react-slick";
+import SliderBanner from "./slider/index";
 
-import CatSlider from "../../catSlider/index";
 import Banners from "../../banners/banner";
+import CatSlider from "../../catSlider/index";
 
+import Banner4 from "../../../assets/images/banner-4.jpg";
 import Product from "../../product/product";
 import TopProducts from "./TopProducts/TopProducts";
-import Banner4 from "../../../assets/images/banner-4.jpg";
-import Banner9 from "../../../assets/images/banner-9.png";
-import NewsLetter from "../../newsletter/NewsLetter";
+
 
 import "./index.css";
-import Footer from "../../footer/footer";
 
 const Home = () => {
   var settings = {
@@ -183,24 +181,8 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="newsLetterSection">
-        <div className="container-field">
-          <div className="box d-flex align-items-center">
-            <div className="info">
-              <h2>Stay home & get your daily needs from our shop</h2>
-              <p>Start Your Daily Shopping with Nest Mart</p>
-              <br />
-              <br />
-              <NewsLetter/>
-            </div>
-            <div className="img">
-              <img src={Banner9} className="w-100" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
-      <Footer />
     </>
   );
 };

@@ -6,8 +6,8 @@
 
 .footerWrapper .footerBoxes .box {
     background: #f4f6fa;
-    padding: 20px 20px;
     border-radius: 15px;
+    padding: 15px 15px;
 }
 
 
@@ -86,26 +86,31 @@ footer .lastStrip {
     /* margin-bottom: 0 !important; */
 }
 
-footer .lastStrip .part3 h5{
+footer .lastStrip .part3 h5 {
     margin-bottom: 0;
 }
-footer .lastStrip .part3 ul{
+
+footer .lastStrip .part3 ul {
     margin-bottom: 0;
     padding-left: 10px;
 }
-footer .lastStrip .part3 ul li a{
+
+footer .lastStrip .part3 ul li a {
     display: flex;
-    align-items: center;justify-content: center;
+    align-items: center;
+    justify-content: center;
     width: 30px;
     height: 30px;
     background: #3bb77e;
     border-radius: 50%;
     transition: all .3s ease-in-out !important;
 }
-footer .lastStrip .part3 ul li a svg{
+
+footer .lastStrip .part3 ul li a svg {
     color: #fff;
 }
-footer .lastStrip .part3 ul li a:hover svg{
+
+footer .lastStrip .part3 ul li a:hover svg {
     color: #000;
 }
 

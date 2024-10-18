@@ -1,0 +1,50 @@
+.rightContent {
+    max-width: 75%;
+    flex: 0 0 75%;
+}
+
+
+.rightContent .productRow .item {
+    width: 25% !important;
+    padding: 0px 5px;
+}
+
+.rightContent .topStrip {
+    padding: 0px 25px;
+}
+
+.rightContent .topStrip p {
+    font-size: 18px;
+}
+
+.rightContent .topStrip .tab {
+    width: 200px;
+}
+
+.rightContent .topStrip .tab .btn_ {
+    background: none !important;
+    border: 1px solid rgba(0, 0, 0, .1) !important;
+    padding: 7px 20px !important;
+    outline: none !important;
+    text-transform: capitalize !important;
+    color: rgba(0, 0, 0, .8) !important;
+    border-radius: 5px !important;
+    font-size: 15px !important;
+    width: 100% !important ;
+    justify-content: flex-start !important;
+    transition: all .05s ease;
+}
+
+.rightContent .topStrip .tab .btn_:hover {
+    background-color: #f7f7f7 !important;
+}
+
+.rightContent .topStrip .tab .btn_ svg{
+    opacity: .5;
+    margin-right: 4px;
+}
+
+
+.rightContent .topStrip .tab .dropdownMenu li button:hover {
+    background: #3ee77b;
+}

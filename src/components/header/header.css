@@ -17,7 +17,7 @@ header {
     z-index: 10000;
 }
 
-.afterHeader{
+.afterHeader {
     margin-top: 200px;
 }
 
@@ -122,8 +122,10 @@ header .headerTabs li span img {
 }
 
 header .headerTabs li span.badge {
-    width: 20px;
-    height: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
     text-align: center;
     color: #fff;
     font-weight: 400;

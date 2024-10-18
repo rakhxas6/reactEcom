@@ -1,0 +1,65 @@
+.notFound {
+    width: 100%;
+    height: auto;
+    padding: 45px 0;
+}
+
+.notFound .container-field .box {
+    width: 50%;
+    height: auto;
+    padding: 40px 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.notFound .container-field .box img {
+    width: 80%;
+}
+
+.notFound .box h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #000;
+    opacity: .7;
+    font-family: "Quicksand", sans-serif;
+}
+
+.notFound .box p {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+
+.buttons {
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+.buttons a {
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: #3BB77E;
+    cursor: pointer;
+    -webkit-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    letter-spacing: 0.5px;
+}
+
+.buttons a:hover {
+    color: black;
+    background: orange;
+    text-decoration: none;
+    -webkit-transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+    transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+}

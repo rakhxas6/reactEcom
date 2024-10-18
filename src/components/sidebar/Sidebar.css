@@ -1,0 +1,112 @@
+.sidebarWrapper {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+.sidebarWrapper h3 {
+    font-size: 22px;
+    font-weight: 400;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.sidebarWrapper h3::after {
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #bdbcbc;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebarWrapper h3::before {
+    content: '';
+    height: 3px;
+    width: 30%;
+    background: #bce3c9;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.sidebarWrapper .sidebar{
+    position: sticky;
+    top: 110px;
+}
+
+.sidebarWrapper .sidebar .card {
+    padding: 25px;
+    border-radius: 10px !important;
+    margin-bottom: 40px;
+}
+
+.sidebarWrapper .sidebar .card .catList .catItem {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 7px 0;
+    margin-bottom: 0 !important;
+    border: 1px solid rgba(0, 0, 0, .05);
+    transition: all .3s ease-in-out;
+}
+
+.sidebarWrapper .sidebar .card .catList .catItem:hover {
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.sidebarWrapper .sidebar .card .catList .catItem h4 {
+    color: #000;
+    font-size: 16px;
+}
+
+.sidebarWrapper .sidebar .card .catList .catItem .rounded-circle {
+    background: #bce3c9;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: #093d15;
+}
+
+.priceRange span {
+    font-size: 16px;
+}
+
+
+.filters {
+    padding: 25px 0;
+    padding-bottom: 0;
+}
+
+.filters h5{
+    font-weight: 600;
+    opacity: .9;
+    margin-bottom: 10px;
+}
+
+.filters ul {
+    max-height: 200px;
+    overflow-y: scroll;
+    margin-left: -10px;
+}
+
+.filters ul::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+.filters ul::-webkit-scrollbar-thumb {
+    background: #ccc !important;
+}
+
+.filters ul li {
+    width: 100%;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+.sidebarWrapper .sidebar .btn{
+width: 150px !important;
+}
