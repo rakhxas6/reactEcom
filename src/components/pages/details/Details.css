@@ -54,13 +54,13 @@ ul.breadcrumb li a:hover {
 
 
 .detailsPage .productInfo h1 {
-    font-size: 55px;
+    font-size: 40px;
     font-weight: bold;
     opacity: .8;
 }
 
 .detailsPage .productInfo .priceSec .priceLarge {
-    font-size: 50px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -70,10 +70,12 @@ ul.breadcrumb li a:hover {
 }
 
 .detailsPage .productInfo .priceSec .text-light.oldPrice {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     text-decoration: line-through;
 }
+
+
 
 
 .productZoom {
@@ -83,6 +85,10 @@ ul.breadcrumb li a:hover {
     border-radius: 20px;
     padding: 0px;
     overflow: hidden;
+}
+
+.zoomSliderBig {
+    width: 100% !important;
 }
 
 .zoomSlider {
@@ -202,9 +208,11 @@ ul.breadcrumb li a:hover {
     right: 10px;
 }
 
-.addCartSection .btn-top{
+.addCartSection .btn-top {
     margin-top: 0px !important;
+    /* font-size: 14px !important; */
 }
+
 .addToCartIcon svg {
     font-size: 28px !important;
 }
@@ -218,7 +226,7 @@ ul.breadcrumb li a:hover {
     font-size: 30px !important;
 }
 
-.opacity{
+.opacity {
     opacity: 1 !important;
 }
 
@@ -234,4 +242,152 @@ input::-webkit-inner-spin-button {
 /* Hide spin buttons in Firefox */
 input[type="number"] {
     -moz-appearance: textfield;
+}
+
+
+
+
+.detailsPageTabs {
+    border-radius: 25px !important;
+}
+
+
+.customTabs ul li {
+    margin-right: 15px !important;
+}
+
+.customTabs ul li button {
+    padding: 10px 20px !important;
+    border: 1px solid rgba(0, 0, 0, .1) !important;
+    font-size: 18px !important;
+    text-transform: capitalize !important;
+    border-radius: 30px !important;
+    color: #000 !important;
+    opacity: .7 !important;
+    outline: none !important;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+
+
+.customTabs ul li button.active{
+    color: #3BB77E !important;
+}
+
+.tabContent .product-more-information {
+    margin-top: 10px;
+    padding: 0 0 0px 14px;
+    list-style-type: circle !important;
+}
+
+
+.tabContent .product-more-information li {
+    /* text-decoration: dotted; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 10px;
+    position: relative;
+}
+
+.tabContent .product-more-information li span {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 165px;
+    flex: 0 0 165px;
+    display: inline-block;
+}
+
+
+
+.vendor-logo img {
+    max-width: 150px;
+}
+
+.contact-infor {
+    font-size: 15px;
+    color: #253D4E;
+    list-style: none;
+}
+
+.tabContent .vendor-name {
+    text-decoration: none;
+}
+
+.contact-infor li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.font-xs {
+    font-size: 16px;
+}
+
+
+.text-brand {
+    color: #3BB77E !important;
+}
+
+
+.font-small,
+.text-muted {
+    font-size: 12px;
+    opacity: .8;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+/* reviews section */
+
+
+.card {
+    border-radius: 10px !important;
+}
+
+.reviewsCard{
+    margin-bottom: 20px !important;
+}
+
+.reviewsCard .image {
+    width: 100px;
+}
+
+.reviewsCard .rounded-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+.reviewsCard .rounded-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.reviewForm .form-group{
+    margin-bottom: 20px;
+}
+
+.reviewForm .form-group textarea.form-control{
+    height: 180px;
+    padding-top: 25px;
+}
+.reviewForm .form-group .form-control{
+    padding-left: 20px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 7px !important;
+}
+
+
+.relatedProducts .item{
+    padding: 15px 5px;
+    padding-right: 25px !important;
 }

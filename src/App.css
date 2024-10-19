@@ -49,6 +49,7 @@ body {
 
 .btn-lg {
     font-size: 16px !important;
+    padding: 10px 20px !important;
 }
 
 .btn-g {
@@ -146,4 +147,9 @@ body {
 .breadcrumb ul li:hover a {
     color: #3bb77e;
     top: -4px;
+}
+
+
+.fade {
+    transition: opacity .15s linear;
 }

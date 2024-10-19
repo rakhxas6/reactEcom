@@ -5,7 +5,7 @@ import cat3 from "../../assets/images/category-3.svg";
 import cat4 from "../../assets/images/category-4.svg";
 import cat5 from "../../assets/images/category-5.svg";
 import "./Sidebar.css";
-import BannerImg from "../../assets/images/banner-1.png"
+import BannerImg from "../../assets/images/banner-11.png";
 import { Button, Checkbox, Slider } from "@mui/material";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 
@@ -137,11 +137,24 @@ const Sidebar = () => {
               <FilterAltIcon />
               Filter
             </Button>
-                  </div>
-                  
-              </div>
-              
-              <img src={BannerImg} alt=""  className="w-100"/>
+          </div>
+        </div>
+
+        <div
+          class="banner-img wow fadeIn mb-lg-0 "
+          style={{ visibility: "visible" }}
+        >
+          <img src={BannerImg} alt="" className="w-100" />
+          <div class="banner-text">
+            <span>Oganic</span>
+            <h4>
+              Save 17% <br />
+              on <span className="text-brand mt-1 mb-1">Organic</span>
+              <br />
+              Juice
+            </h4>
+          </div>
+        </div>
       </div>
     </>
   );
