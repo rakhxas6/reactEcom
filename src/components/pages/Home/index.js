@@ -9,7 +9,6 @@ import Banner4 from "../../../assets/images/banner-4.jpg";
 import Product from "../../product/product";
 import TopProducts from "./TopProducts/TopProducts";
 
-
 import "./index.css";
 
 const Home = () => {
@@ -22,6 +21,10 @@ const Home = () => {
     slidesToScroll: 1,
     fade: false,
     autoplay: 3000,
+  };
+
+  const DetailsPage = () => {
+    window.location.href = "/details";
   };
   return (
     <>
@@ -73,40 +76,40 @@ const Home = () => {
             </ul>
           </div>
           <div className=" productRow ">
-            <div className="item">
+            <div className="item" onClick={DetailsPage}>
               <Product tag="sale" />
             </div>
-            <div className="item">
+            <div className="item" onClick={DetailsPage}>
               <Product />
             </div>
-            <div className="item">
+            <div className="item" onClick={DetailsPage}>
               <Product />
             </div>
-            <div className="item">
+            <div className="item" onClick={DetailsPage}>
               <Product tag="new" />
             </div>
-            <div className="item">
+            <div className="item" onClick={DetailsPage}>
               <Product />
             </div>
-            <div className="item">
+            <div className="item" onClick={DetailsPage}>
               <Product tag="hot" />
             </div>
-            <div className="item">
+            <div className="item" onClick={DetailsPage}>
               <Product />
             </div>
-            <div className="item">
+            <div className="item" onClick={DetailsPage}>
               <Product tag="best" />
             </div>
-            <div className="item">
+            <div className="item" onClick={DetailsPage}>
+              <Product />
+            </div>
+            <div className="item" onClick={DetailsPage}>
               <Product />
             </div>
             <div className="item">
               <Product />
             </div>
-            <div className="item">
-              <Product />
-            </div>
-            <div className="item">
+            <div className="item" onClick={DetailsPage}>
               <Product tag="new" />
             </div>
           </div>
@@ -144,16 +147,16 @@ const Home = () => {
             </div>
             <div className="col-md-9">
               <Slider {...settings} className="prodSlider">
-                <div className="item">
+                <div className="item" onClick={DetailsPage}>
                   <Product tag="hot" />
                 </div>
-                <div className="item">
+                <div className="item" onClick={DetailsPage}>
                   <Product tag="best" />
                 </div>
-                <div className="item">
+                <div className="item" onClick={DetailsPage}>
                   <Product tag="new" />
                 </div>
-                <div className="item">
+                <div className="item" onClick={DetailsPage}>
                   <Product tag="sale" />
                 </div>
               </Slider>
@@ -180,9 +183,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      
-
     </>
   );
 };

@@ -58,7 +58,11 @@ const Details = () => {
      slidesToScroll: 1,
      fade: false,
      autoplay: 1500,
-   };
+  };
+  
+    const DetailsPage = () => {
+      window.location.href = "/details";
+    };
 
   const goTo = (index) => {
     zoomRef.current.slickGoTo(index);
@@ -834,16 +838,16 @@ const Details = () => {
             <div className="relatedProducts pt-5 pb-4">
               <h2 className="hd mb-0 mt-0">Related Products</h2>
               <Slider {...relatedSettings} className="prodSlider">
-                <div className="item">
+                <div className="item" onClick={DetailsPage}>
                   <Product tag="hot" />
                 </div>
-                <div className="item">
+                <div className="item" onClick={DetailsPage}>
                   <Product tag="best" />
                 </div>
-                <div className="item">
+                <div className="item" onClick={DetailsPage}>
                   <Product tag="new" />
                 </div>
-                <div className="item">
+                <div className="item" onClick={DetailsPage}>
                   <Product tag="sale" />
                 </div>
               </Slider>

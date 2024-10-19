@@ -1,0 +1,64 @@
+.cartSection {
+    width: 100%;
+    height: 100%;
+    padding: 35px 0;
+}
+
+.cartSection .clearCart {
+    font-weight: 600;
+    font-size: 16px;
+    opacity: .7;
+    margin-top: 10px;
+}
+
+.cartSection .clearCart svg {
+    font-size: 20px !important;
+}
+
+.cartWrapper {
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.cartWrapper table thead {
+    background: #f1f1f1;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.cartWrapper table thead th:first-child {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.cartWrapper table thead th:last-child {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.cartWrapper table tbody td .info h4 {
+    font-size: 16px !important;
+}
+
+.cartWrapper table tbody td {
+    vertical-align: middle;
+}
+
+.cartWrapper table tbody td .info a {
+    color: rgba(0, 0, 0, .7);
+    /* font-size: 14px; */
+}
+
+.cartWrapper table tbody td .info a:hover {
+    text-decoration: none;
+}
+
+.cartWrapper table tbody td .img {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.cartWrapper table tbody td span{
+    font-weight: 600;
+    font-size: 20px;
+}

@@ -1,4 +1,4 @@
-.bannerSection{
+.bannerSection {
     padding: 25px 0;
 }
 
@@ -8,6 +8,32 @@
     cursor: pointer;
 }
 
-.bannerSection .box:hover img{
+/* .bannerSection .box:hover img {
     transform: scale(1.1);
+} */
+
+.bannerSection .banner-img .banner-text h4 {
+    font-family: "Quicksand", sans-serif;
+    color: #253D4E;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.bannerSection .banner-img .banner-text .tdn {
+    padding: 10px 15px !important;
+}
+
+.bannerSection .banner-img .banner-text a {
+    text-decoration: none !important;
+    transition: all .3s ease-in-out;
+}
+
+.bannerSection .banner-img .banner-text .btn-g .icon {
+    transition: transform 0.3s ease;
+    font-size: 16px;
+}
+
+
+.bannerSection .banner-img .banner-text .btn-g:hover .icon {
+    transform: translateX(5px);
 }

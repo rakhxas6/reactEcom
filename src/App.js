@@ -10,6 +10,7 @@ import Details from "./components/pages/details/Details";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import Cart from "./components/pages/Cart/Cart";
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
           <Route exact={true} path="/" element={<Home />} />
           <Route exact={true} path="/about" element={<About />} />
           <Route exact={true} path="/listing" element={<Listing />} />
-          <Route exact={true} path="/details" element={<Details />} />
+          <Route exact={true} path="/product/details" element={<Details />} />
+          <Route exact={true} path="/cart" element={<Cart />} />
           <Route exact={true} path="*" element={<NotFound />} />
         </Routes>
 
