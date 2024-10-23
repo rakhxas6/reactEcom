@@ -2,10 +2,11 @@ import React from "react";
 import { GridView, HeadphonesOutlined } from "@mui/icons-material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Button from "@mui/material/Button";
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 import "./nav.css";
 
 const Nav = () => {
+  const navigate = useNavigate();
   // const [isOpenDropDown, setIsOpenDropDown] = useState(false);
   return (
     <div className="nav d-flex align-items-center">
@@ -30,7 +31,10 @@ const Nav = () => {
                     <Link>About</Link>
                   </Button>
                 </li>
-                <li className="list-inline-item">
+                <li
+                  className="list-inline-item"
+                  onClick={() => navigate("/listing")}
+                >
                   <Button>
                     <Link>Shop</Link>
                   </Button>

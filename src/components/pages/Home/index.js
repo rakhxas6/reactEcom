@@ -24,7 +24,7 @@ const Home = () => {
   };
 
   const DetailsPage = () => {
-    window.location.href = "/details";
+    window.location.href = "/product/details";
   };
   return (
     <>

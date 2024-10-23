@@ -12,12 +12,10 @@
 }
 
 .cartSection .clearCart svg {
-    font-size: 20px !important;
+    font-size: 25px !important;
 }
 
-.cartWrapper {
-    border: 1px solid rgba(0, 0, 0, .2);
-}
+
 
 .cartWrapper table thead {
     background: #f1f1f1;
@@ -40,7 +38,7 @@
 }
 
 .cartWrapper table tbody td {
-    vertical-align: middle;
+    vertical-align: middle !important;
 }
 
 .cartWrapper table tbody td .info a {
@@ -58,7 +56,16 @@
     border: 1px solid rgba(0, 0, 0, .1);
 }
 
-.cartWrapper table tbody td span{
+.cartWrapper table tbody td span {
     font-weight: 600;
     font-size: 20px;
+}
+
+.cartRightBox {
+    padding-left: 150px;
+}
+
+.cartRightBox .card .icon1 {
+    font-size: 34px;
+    padding-left: 10px !important;
 }

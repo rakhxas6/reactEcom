@@ -4,6 +4,7 @@ import InnerImageZoom from "react-inner-image-zoom";
 import "react-inner-image-zoom/lib/InnerImageZoom/styles.css";
 import { Link } from "react-router-dom";
 import Sidebar from "../../sidebar/Sidebar";
+import QuantityBox from "../../quantityBox/QuantityBox";
 import Product from "../../product/product"
 import "./Details.css";
 
@@ -61,7 +62,7 @@ const Details = () => {
   };
   
     const DetailsPage = () => {
-      window.location.href = "/details";
+      window.location.href = "/product/details";
     };
 
   const goTo = (index) => {
@@ -224,12 +225,10 @@ const Details = () => {
               {/* Product info CODE endS HERE */}
               <div className="col-md-7 productInfo">
                 <h1>Maggi 2-Minute Masala Noodles 70 g</h1>
-
                 <div className="d-flex align-items-center mb-4">
                   <Rating name="read-only" value={4.5} readOnly />
                   <span className="text-light">(32 Reviews)</span>
                 </div>
-
                 <div className="priceSec d-flex align-items-center mb-1">
                   <span className="text-g priceLarge">$1.25</span>
 
@@ -243,7 +242,6 @@ const Details = () => {
                   ipsum fugiat ratione cumque dolore necessitatibus cum
                   voluptate magnam ex doloremque.
                 </p>
-
                 <div className="productSize d-flex align-items-center mb-0">
                   <span>Size / Weight</span>
                   <ul className="list list-inline mb-0 pl-4">
@@ -289,7 +287,7 @@ const Details = () => {
                     </li>
                   </ul>
                 </div>
-
+               
                 <div className="addCartSection pt-0 pb-4 d-flex align-items-center">
                   <div className="countSection mr-3">
                     <input type="number" value={number} />
